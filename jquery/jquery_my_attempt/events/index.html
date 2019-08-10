@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JQuery Events</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <style>
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+            border-bottom: 4px #ff69b4 solid;
+
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px #000 solid;
+            margin-bottom: 10px;
+        }
+
+        #container {
+            width: 90%;
+            margin: auto;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>jQuery Crash Course | Events</h1>
+    </header>
+    <div id="container">
+        <h3>Mouse Events</h3>
+        <button id="button1">Button 1</button>
+        <button id="button2">Button 2</button>
+        <p>Clita magna consetetur clita amet tempor diam et sed. Diam gubergren duo aliquyam stet. Aliquyam accusam et labore sit sanctus lorem gubergren. Magna sanctus tempor no duo dolor consetetur gubergren invidunt. Justo magna sit accusam sea clita tempor, consetetur labore erat takimata ipsum justo lorem. Ipsum gubergren aliquyam stet et.</p>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            
+            $('#button1').click(function () {
+                alert('Button Clicked!');
+            });
+            ///////////
+        });
+
+    </script>
+
+
+</body>
+
+</html>
