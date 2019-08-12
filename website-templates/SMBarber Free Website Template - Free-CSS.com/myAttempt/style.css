@@ -48,7 +48,24 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+/*------------------------------------------------------------------
+    HEADER
+-------------------------------------------------------------------*/
 
+.side-top{
+	position: absolute;
+	top: 26%;
+	width: 280px;
+	text-align: center;
+	margin: -20px auto;
+	padding: 0 30px;
+	list-style: none;
+}
+
+body.barber_version .sidebar-nav li a.active{
+	background: #bb9d52;
+	color: #ffffff;
+}
 
 
 

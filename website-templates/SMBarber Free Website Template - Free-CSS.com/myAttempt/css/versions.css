@@ -1,0 +1,68 @@
+body.barber_version #sidebar-wrapper {
+    z-index: 1000;
+    border-right: 1px dashed rgba(255, 255, 255, 0.1);
+    position: fixed;
+    left: 280px;
+    width: 0;
+    height: 100%;
+    margin-left: -280px;
+    overflow-y: auto;
+    background: #111111;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+body.barber_version #wrapper.toggled #sidebar-wrapper {
+    width: 280px;
+}
+
+body.barber_version #sidebar-wrapper {
+    width: 285px;
+}
+
+
+body.barber_version #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+}
+
+
+body.barber_version .logo-sidebar {
+    display: block;
+    margin: 0 0 2em;
+}
+
+body.barber_version .sidebar-nav li:hover a {
+    background: #bb9d52;
+	color: #ffffff;
+}
+
+body.barber_version .sidebar-nav li {
+    line-height: 45px;
+	margin-bottom: 15px;
+}
+
+body.barber_version .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+	background-color: transparent;
+	font-weight: 600;
+	padding: 7px 17px 7px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	line-height: 21px;
+}
+
+body.barber_version .sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+body.barber_version .sidebar-nav li a:active,
+body.barber_version .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
