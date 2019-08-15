@@ -17,7 +17,7 @@ $max-width: 1100px;
 // Set background & text color
 @mixin set-background($color) {
   background-color: $color;
-  color: set-text-color($color);
+  color: set-text-color($color); 
 }
 
 // Margin & Padding
